@@ -1,27 +1,27 @@
 # Site settings
-title: cc zone
-SEOTitle: cc的博客 | cc's Blog
+title: dlh zone
+SEOTitle: dlh的博客 | dlh's Blog
 header-img: img/post-bg-desk.jpg
-email: seuercc@gmail.com
+email: dlh@gmail.com
 description: "fish of mobile security"
-keyword: "cc, cc Blog, cc的博客, seuercc, android, security"
-url: "http://seuercc.github.io"          # your host, for absolute URL
+keyword: "dlh, dlh Blog, dlh的博客, dlh, android, security"
+url: "http://dlh1983.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/seuercc/seuercc.github.io.git" # you code repository
+github_repo: "https://github.com/dlh1983/dlh1983.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/avatar-cc.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar-m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     seuercc
-zhihu_username:     seuercc
-github_username:    seuercc
-facebook_username:  seuercc
+zhihu_username:     dlh1983
+github_username:    dlh1983
+facebook_username:  dlh1983
 
 
 # Build settings
@@ -73,10 +73,10 @@ service-worker: true
 friends: [
     {
         title: "Baidu",
-        href: "https://seuercc.github.io/easyhtml/aegis.html"
+        href: "https://dlh1983.github.io/easyhtml/aegis.html"
     },{
         title: "Apple",
-        href: "https://seuercc.github.io/easyhtml/aegis.html"
+        href: "https://dlh1983.github.io/easyhtml/aegis.html"
     }
 ]
 
