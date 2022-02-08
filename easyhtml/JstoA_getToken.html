@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WebView Test</title>
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JstoA_addJavascriptInterface</title>
+        <script>
+             function callAndroid(){
+               //由于对象映射，所以调用test对象等于调用Android映射的对象AndroidtoJs
+              test.getServiceToken();
+             }
+        </script>
+    </head>
 <body>
-<script type="text/javascript">
-
-    var result = test.getServiceToken();
-    console.log("token is : " + result);
-    alert("get token is : " + result);
-    
-</script>
+<button type="button" id="button1" onclick="callAndroid()">JS通过addJavascriptInterface调用Android方法</button>
 </body>
 </html>
